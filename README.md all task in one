@@ -1,0 +1,176 @@
+# Alltask
+package Labtask2;
+1,,,
+
+public class AreaOfRectangle {
+
+        public static void main(String[] strings) {
+
+		        final double width = 5.6;
+		        final double height = 8.5;
+
+		        double perimeter = 2*(height + width);
+				
+		        double area = width * height;			
+				
+				System.out.printf("Perimeter is 2*(%.1f + %.1f) = %.2f \n", height, width, perimeter);
+
+		        System.out.printf("Area is %.1f * %.1f = %.2f \n", width, height, area);
+		    }
+		}
+    
+    
+    2.....
+    
+    package Labtask2;
+
+public class DoWhileLoop {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int i=1;
+		do {
+			System.out.println(i);
+			i++;
+			
+		}
+		while (i<=10);
+
+	}
+
+}
+
+
+3.........
+
+package Labtask2;
+
+public class ForLoop {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		for (int i=2;i<=3; i++) {
+			for (int j=2;j<=4; j++) {
+				System.out.println(i+" "+j);
+				
+				
+			}
+		}
+	}
+
+}
+
+
+4....
+
+package Labtask2;
+
+public class IfElse {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int age = 40;
+		if (age>23) {
+			System.out.println("Age is Grater than 23");
+			
+		}
+		else 
+			System.out.println("Age is Grater than 40");
+
+	}
+
+}
+
+
+5.......
+
+package Labtask2;
+
+public class OddEven {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		int number = 20;
+		
+		if(number%2==0){
+			System.out.println("Number is Even");
+		}else{
+			System.out.println("Number is Odd");
+		}
+	}
+}
+
+
+
+
+6.....
+
+
+package Labtask2;
+
+public class SwitchCase {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		int number = 50;
+		
+		switch (number) {
+		case 20:System.out.println("20");
+		break;
+		case 30:System.out.println("30");
+		break;
+		case 40:System.out.println("40");
+		break;
+		default:System.out.println("Number is not valid");
+		}
+
+	}
+
+}
+
+
+7......
+
+package Labtask2;
+
+public class TaxCalc 
+
+{
+	//Start of main function
+	public static void main(String[] args) {
+		
+		int number = 20;
+	
+		if(number%2==0){
+			System.out.println("Number is Even");
+		}else{
+			System.out.println("Number is Odd");
+		}
+	}
+}
+
+
+	
+
+	
+  
+  
+  8....
+  
+  package Labtask2;
+
+public class Whileloop {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		while (true)
+		{
+			System.out.println("*");
+		}
+
+	}
+
+}
